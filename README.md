@@ -1,2 +1,15 @@
-# AGE_CALCULATOR
-# 🗓 Age Calculator in C  This is a simple Age Calculator program written in C.   It takes your date of birth as input and calculates your current age in years, months, and days.  ### ✅ Features - Input: Date of Birth (DD MM YYYY) - Output: Age in years, months, and days - Uses system date via &lt;time.h> 
+# 🧮 Age Calculator in C
+
+This project calculates your exact age in years, months, and days based on your Date of Birth (DOB).  
+It also displays the day of the week you were born.
+
+## 📂 Files
+
+- age_calculator.c → Main program
+- sample_output.txt → Sample run output
+
+## 🛠 How to Run
+
+```bash
+gcc age_calculator.c -o age_calculator
+./age_calculator
